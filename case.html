@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html ng-app="" class="no-js" lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<meta name="keywords" content="贵阳高端室内设计"/>
+	<meta name="description" content="元禾旺景设计管理顾问有限公司成立于2012年，是由一群来自不同地区充满活力有着扎实专业功底的设计师组成的综合性设计机构。他们以各自的努力共同维护和传承着公司良好的口碑及先进的设计理念，确保元禾旺景处于贵州设计界的前沿。 " />
+	<title>元禾旺景</title>
+
+	<!-- Bootstrap -->
+
+	<link href="css/bootstrap.min.css?v3.0" rel="stylesheet">
+	<link href="css/style.css?v1.0" rel="stylesheet">
+	<script src="jquery/1.11.3.min.js?v1.11.3"></script>
+	<script src="js/jquery.query.js?v1.0.0"></script>
+	<script type='text/javascript' src='js/angular/angular.min.js?v1.39'></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+	<script type="text/javascript">
+ var ClassName = $.query.get("ClassName");
+ var ClassType = $.query.get("ClassType");
+</script>
+	<script id="t:case" type="text/html">
+	<div class="content col-xs-12 col-sm-12">
+	<h1 class="ink-word-two a1">在建项目</h1>
+	 <div role="separator" class="divider"></div>
+   <%for(var i=0;i<len.length;i++){%>
+    <%if(ClassName==len[i]["ClassName"]&&ClassType==len[i]["ClassType"]&&len[i]["PojectSatus"]=='0'){%>
+    <div class="col-sm-4 col-md-4 zero-inner">
+	 <a href="case-info.html?id=<%=len[i]["id"]%>&&ClassName=<%=ClassName%>&&ClassType=<%=ClassType%>" class="thumbnail">
+	<img src="<%=len[i]["Case_IMG"]%>" alt="<%=len[i]["Name"]%>">
+	<%=len[i]["Name"]%></a>
+	</div>
+     <%}%>
+     <%}%></div>
+     <div class="content col-xs-12 col-sm-12">
+     <h1 class="ink-word-two a1">完成项目</h1>
+      <div role="separator" class="divider"></div>
+   <%for(var i=0;i<len.length;i++){%>
+    <%if(ClassName==len[i]["ClassName"]&&ClassType==len[i]["ClassType"]&&len[i]["PojectSatus"]=='1'){%>
+    <div class="col-sm-4 col-md-4 zero-inner">
+	 <a href="case-info.html?id=<%=len[i]["id"]%>&&ClassName=<%=ClassName%>&&ClassType=<%=ClassType%>" class="thumbnail">
+	<img src="<%=len[i]["Case_IMG"]%>" alt="<%=len[i]["Name"]%>">
+	<%=len[i]["Name"]%></a>
+	</div>
+	
+     <%}%>
+     <%}%></div>
+     </script>
+<body>
+	<div class="container-fluid">
+		<div class="row row-offcanvas row-offcanvas-right">
+			<div ng-include="'common/nav.html'"></div>
+			<div class="content col-xs-12 col-sm-9">
+				<div class="case-inner">
+					<div class="row" id="case_display"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--主体-->
+	<!--底部-->
+	<footer class="no-fixed">
+		<div ng-include="'common/footer.html'"></div>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/baidu/baiduTemplate.js?v1.0.0"></script>
+	<script type="text/javascript">
+$(function() {
+var loadEnd=false;
+$.ajax({
+    url: 'case_detail.txt',
+    type: 'GET',
+    data:'code='+Math.random(),
+    cache: false,
+    async: false,
+    error: function(){
+        alert("error");
+    },
+    success: function(data){
+            var _data=$.parseJSON(data);
+            var bt=baidu.template;
+            var _test={"len":_data}
+            //最简使用方法
+            var html=bt('t:case',_test);
+            //渲染
+            $("#case_display").html(html);
+            loadEnd=true;
+            
+        }
+});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html ng-app="" class="no-js" lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<meta name="keywords" content="贵阳高端室内设计"/>
+          <meta name="description" content="元禾旺景设计管理顾问有限公司成立于2012年，是由一群来自不同地区充满活力有着扎实专业功底的设计师组成的综合性设计机构。他们以各自的努力共同维护和传承着公司良好的口碑及先进的设计理念，确保元禾旺景处于贵州设计界的前沿。 " />
+	<title>元禾旺景</title>
+
+	<!-- Bootstrap -->
+
+	<link href="css/bootstrap.min.css?v3.0" rel="stylesheet">
+	<link href="css/style.css?v1.0" rel="stylesheet">
+	<script src="jquery/1.11.3.min.js?v1.11.3"></script>
+	<script src="js/jquery.query.js?v1.0.0"></script>
+	<script type='text/javascript' src='js/angular/angular.min.js?v1.39'></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+	<script type="text/javascript">
+ var id = $.query.get("id");
+ var ClassName = $.query.get("ClassName");
+ var ClassType = $.query.get("ClassType");
+</script>
+	<script id="t:case_info" type="text/html">
+   <%for(var i=0;i<len.length;i++){%>
+    <%if(id==len[i]["id"]){%>
+    <div class="bottom-indent">
+						<a class="ink-word-two a1" href="index.html">首页</a>
+						<span class="ink-word-two be-idnent a1">/</span>
+						<a class="ink-word-two a1" href="case.html?ClassName=<%=ClassName%>&&ClassType=<%=ClassType%>">住宅空间</a>
+						<a class="fr" href="case.html?ClassName=<%=ClassName%>&&ClassType=<%=ClassType%>">
+							<img src="img/off.png"/>
+						</a>
+					</div>
+						<div id="myCarousel" class="carousel slide">
+							<!-- 轮播（Carousel）指标 -->
+							
+							<ol class="carousel-indicators">
+								
+								<%for(var k=0;k<len[i].IMG.length;k++){%>
+								<%if(k==0){%>
+								<li data-target="#myCarousel" data-slide-to="<%=k%>" class="active"></li>
+								<%}else{%>
+                                <li data-target="#myCarousel" data-slide-to="<%=k%>"></li>
+								<%}%>
+								<%}%>
+								</ol>
+							
+							<!-- 轮播（Carousel）项目 -->
+							<div class="carousel-inner">
+									<%for(var k=0;k<len[i].IMG.length;k++){%>
+									<%if(k==0){%>
+								<div class="item active">
+									<img src="<%=len[i].IMG[k]%>" alt="Second slide"></div>
+								<%}else{%>
+                                <div class="item">
+									<img src="<%=len[i].IMG[k]%>" alt="Second slide"></div>
+								<%}%>
+								<%}%></div>
+							<!-- 轮播（Carousel）导航 -->
+
+						</div>
+						<a class="myCarousel carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+						<a class="myCarousel 	carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+						<div class="col-xs-12 col-sm-6 li zero-inner">
+							<h2 class="ink-word-two t1"><%=len[i]["Name"]%></h2>
+							<div role="separator" class="divider"></div>
+							<p class="  ink-word-two p2">
+								<%=len[i]["caseInto_One"]%></p>
+						</div>
+						<div class="col-xs-12 col-sm-6 zero-right-inner">
+							<h2 class="ink-word-two t2">
+								<%=len[i]["Add"]%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<%=len[i]["Time"]%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<%=len[i]["Size"]%>m <sup>2</sup>
+							</h2>
+							<div role="separator" class="divider"></div>
+							<p class="ink-word-two p2">
+								<%=len[i]["caseInto_Two"]%></p>
+						</div>
+     <%}%>
+     <%}%></script>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="case-info col-xs-12 col-sm-9">
+				<div class="logo">
+					<img src="img/logo.png"  class="img-responsive"  alt="" />
+					<div class="clear"></div>
+				</div>
+
+			</div>
+			<div class="case-sliderbar  col-xs-12 col-sm-3">
+				<div class="header-inner">
+					<img src="img/arch.png" class="img-responsive" alt="" />
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="case-info col-xs-12 col-sm-12 zero-right-inner">
+				<div class="case-info-inner" id="case_info">
+					<!---<div class="bottom-indent">
+					<a class="ink-word-two a1" href="index.html">首页</a>
+					<span class="ink-word-two be-idnent a1">/</span>
+					<a class="ink-word-two a1" href="case.html">住宅空间</a>
+					<a class="fr" href="case.html">
+						<img src="img/off.png"/>
+					</a>
+				</div>
+				<div id="myCarousel" class="carousel slide">
+
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/slide1.png" alt="First slide"></div>
+						<div class="item">
+							<img src="img/slide1.png" alt="Second slide"></div>
+						<div class="item">
+							<img src="img/slide1.png" alt="Third slide"></div>
+					</div>
+
+				</div>
+				<a class="myCarousel carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="myCarousel 	carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+				<div class="col-xs-12 col-sm-6 zero-inner">
+					<h2 class="ink-word-two t1">木动声色</h2>
+					<div role="separator" class="divider"></div>
+					<p class="ink-word-two p2">
+						本案的设计以东南亚室内设计理念为基准，从色彩、材质、家具、门饰到软装、配饰、陈设各个方面的内容，致力营造一个温馨而不失浪漫的精致空间。空间主题———“木动声色”。设计师从实用、环保、收纳、美观四个方面入手，努力使这个家庭能够因为设计而更加的舒适， 难忘。男女主人都是广交朋友，热情好客的人，所以日常来家做客的朋友非常多，我们也对入户换鞋挂衣、用餐、品茶等问题做了设计加强。在每间房间的改造上都留有了良好的采光和通风系统，最大化的满足舒适度要求。本案中的一个很大亮点就是我们运用环保生态屋的理念，选择柚木原木为家里主要的木质材料，柚木是一种油性光亮、材色均一、纹理通直且在日晒雨淋干湿变化较大的情况下不
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 zero-right-inner">
+					<h2 class="ink-word-two t2">
+						贵州贵阳&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2015.10.12&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp879.89m <sup>2</sup>
+					</h2>
+					<div role="separator" class="divider"></div>
+					<p class="ink-word-two p2">
+						翘不裂、耐水、耐火性强、能抗白蚁、极耐腐、干燥性能良好的珍贵木材。考虑女主人是一位有品味的时尚女性，家里除了常规的收纳功能之外，还单独设有多个衣帽间、鞋帽间、储酒间、茶房等。对于每个储物空间的具体收纳系统分配情况单独成册。整体空间色调以米黄色和原木色为主，家具选用米黄色和米白色。中间夹杂了主要的装饰材料色彩，暖白色的墙板和窗帘，灰色的家具皮面及粉白色的布艺，深色的饰品点缀，还有质朴的原木色。
+					</p>
+				</div>
+				------>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+<!--主体-->
+<!--底部-->
+<footer>
+	<div class="case-footer-size">
+			<div ng-include="'common/footer-2.html'"></div>
+	</div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/baidu/baiduTemplate.js?v1.0.0"></script>
+<script type="text/javascript">
+$(function() {
+var loadEnd=false;
+$.ajax({
+    url: 'case_detail.txt',
+    type: 'GET',
+    data:'code='+Math.random(),
+    cache: false,
+    async: false,
+    error: function(){
+        alert("error");
+    },
+    success: function(data){
+            var _data=$.parseJSON(data);
+            var bt=baidu.template;
+            var _test={"len":_data}
+            //最简使用方法
+            var html=bt('t:case_info',_test);
+            //渲染
+            $("#case_info").html(html);
+            loadEnd=true;
+            
+        }
+});
+});
+</script>
+</body>
+</html>

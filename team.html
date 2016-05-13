@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html ng-app="" class="no-js" lang="zh-CN">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="keywords" content="贵阳高端室内设计"/>
+          <meta name="description" content="元禾旺景设计管理顾问有限公司成立于2012年，是由一群来自不同地区充满活力有着扎实专业功底的设计师组成的综合性设计机构。他们以各自的努力共同维护和传承着公司良好的口碑及先进的设计理念，确保元禾旺景处于贵州设计界的前沿。 " />
+    <title>元禾旺景</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css?v3.0" rel="stylesheet">
+    <link href="css/style.css?v1.0" rel="stylesheet">
+    <link href="css/featureCarousel.css?v1.0" rel="stylesheet">
+    <script src="jquery/1.11.3.min.js?v1.11.3">
+    </script>
+    <script src="js/jquery.featureCarousel.js">
+    </script>
+    <script type='text/javascript' src='js/angular/angular.min.js?v1.39'>
+    </script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media
+    queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://
+    -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js">
+      </script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js">
+      </script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div ng-include="'common/nav.html'">
+        </div>
+        <div class="team col-xs-12 col-sm-12 hidden-xs">
+          <div class="team-inner">
+            <div class="col-xs-12 col-sm-12">
+              <div class="team-next">
+                <div id="carousel">
+                  <div class="carousel-feature" data-filter="manage">
+                    <a href="#">
+                      <img class="carousel-image img-responsive" alt="Image Caption" src="img/team-1.png">
+                    </a>
+                    <div class="ink-word-two carousel-caption">
+                      <p>
+                        管理团队
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-feature" data-filter="consultant">
+                    <a href="#">
+                      <img class="carousel-image img-responsive" alt="Image Caption" src="img/team-2.png">
+                    </a>
+                    <div class="ink-word-two carousel-caption">
+                      <p>
+                        顾问团队
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-feature" data-filter="expert">
+                    <a href="#">
+                      <img class="carousel-image  img-responsive" alt="Image Caption" src="img/team-3.png">
+                    </a>
+                    <div class="ink-word-two carousel-caption">
+                      <p>
+                        专家团队
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="carousel-left">
+                  <img src="img/arrow-left.png" />
+                </div>
+                <div id="carousel-right">
+                  <img src="img/arrow-right.png" />
+                </div>
+              </div>
+            </div>
+            <div role="separator" class="col-xs-12 col-sm-12 divider team-diviver-inner">
+            </div>
+            <div class="tab-content">
+              <div class="tab-list manage tab-active " data-filter="manage">
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner ">
+                  <div class="col-xs-12 col-sm-6 zero-inne img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/1.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner top-word-inner indent ">
+                    <h2 class="ink-word-two t1">
+                      王 锦
+                    </h2>
+                    <p class="ink-word-two t2">
+                      董事
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      设计总监
+                    </p>
+                    <p class="ink-word-two p1">
+                      英国卡迪夫大学
+                      <span class="team-word-inner">
+                        城市规划
+                      </span>
+                      <span class="team-word-inner">
+                        硕 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      北京交通大学
+                      <span class="manage-one">
+                        建筑学
+                      </span>
+                      <span class="manage-two">
+                        学 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      贵州大学
+                      <span class="manage-three">
+                        建筑学
+                      </span>
+                      <span class="manage-four">
+                        曾任教师
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      RTPI(英国皇家城市规划学会)会 员
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-right-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner right-align">
+                    <h2 class="ink-word-two t1 ">
+                      童 维 立
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      董事
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      总经理
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      北京理工大学
+                      <span class="team-word-inner">
+                        机电工程专业
+                      </span>
+                      <span class="team-word-inner">
+                        &nbsp学士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾在500强上市公司担任大客户经理
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具有丰富的市场拓展及产品经验,长期从事建材贸易
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾服务企业: 平安保险
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      VIFA
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top col-push-12">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/2.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-right-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/3.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner left-word-inner ">
+                    <h2 class="ink-word-two t1">
+                      李 晨 浩
+                    </h2>
+                    <p class="ink-word-two t2">
+                      运营总监
+                    </p>
+                    <p class="ink-word-two p1">
+                      清华大学
+                      <span class="team-word-inner">
+                        工商管理专业
+                      </span>
+                      <span class="team-word-inner">
+                        硕 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      贵州大学
+                      <span class="team-word-inner">
+                        行政管理专业
+                      </span>
+                      <span class="team-word-inner">
+                        学 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      曾在500强上市公司担任高层管理职位
+                    </p>
+                    <p class="ink-word-two p1">
+                      具有丰富的项目运营及管理经验
+                    </p>
+                    <p class="ink-word-two p1">
+                      曾服务企业: IBM中国有限公司
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      同方股份有限公司
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      海尔集团
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-right-inner ri">
+                  <div class="col-xs-12 col-sm-6 right-word-inner zero-right-inner top-word-inner right-align">
+                    <h2 class="ink-word-two t1 ">
+                      温新阳
+                    </h2>
+                    <p class="ink-word-two t2">
+                      项目总监
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      英国卡迪夫大学
+                      <span class="team-word-inner">
+                        供应链及运营管理
+                      </span>
+                      <span class="team-word-inner">
+                        硕 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      沈阳理工大学
+                      <span class="team-word-inner">
+                        英语文学
+                      </span>
+                      <span class="team-word-inner">
+                        学 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾在多家外企担任供应链体系高管
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具有丰富的供应链及项目管理经验
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾服务的企业: 加拿大卡摩拉速力达公司上海代表处
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      贺利氏信越石英 (中国) 有限公司
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      斯凯孚 (大连) 轴承与精密技术产品有限公司
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner img-right-top ">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/4.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-list consultant tab-pane" data-filter="consultant">
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner top-word-inner img-right-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/consultant/1.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  indent">
+                    <h2 class="ink-word-two t1">
+                      郭旭宝
+                    </h2>
+                    <p class="ink-word-two t2">
+                      视觉传达顾问
+                    </p>
+                    <p class="ink-word-two p1">
+                      旅居意大利
+                      <span class="consultant-one">
+                        独立摄影师
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      中国美术学院
+                      <span class="team-word-inner">
+                        视觉传达设计
+                      </span>
+                      <span class="team-word-inner">
+                        硕士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      2013 WPPI
+                      <span class="team-word-inner">
+                        16*20Print:
+                      </span>
+                      <span class="team-word-inner">
+                        Film&Album
+                      </span>
+                      <span class="team-word-inner">
+                        6个单项银奖
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      2014 WPPI
+                      <span class="team-word-inner">
+                        FirstHalf：
+                      </span>
+                      <span class="team-word-inner">
+                        Bride or Groom Alone
+                      </span>
+                      <span class="team-word-inner">
+                        冠军&6个单项银奖
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      2014 WPPI
+                      <span class="team-word-inner">
+                        SecondHalf：
+                      </span>
+                      <span class="team-word-inner">
+                        Bride or Groom Alone
+                      </span>
+                      <span class="team-word-inner">
+                        冠军&8个单项银奖
+                      </span>
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner right-align">
+                    <h2 class="ink-word-two t1 ">
+                      韩 笑
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      音乐顾问
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      旅居意大利
+                      <span class="team-word-inner">
+                        钢琴演奏家
+                      </span>
+                      <span class="team-word-inner">
+                        歌剧指导
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      古典钢琴演奏
+                        <span class="team-word-inner">
+                          /
+                        </span>
+                        歌剧艺术指导
+                      <span class="team-word-inner">
+                        硕士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      武汉音乐学院
+                      <span class="team-word-inner">
+                        钢琴演奏
+                      </span>
+                      <span class="team-word-inner">
+                        学士
+                      </span>
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/consultant/2.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/consultant/3.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner left-word-inner top-word-inner ">
+                    <h2 class="ink-word-two t1">
+                      王旻昱
+                    </h2>
+                    <p class="ink-word-two t2">
+                      艺术顾问
+                    </p>
+                    <p class="ink-word-two p1">
+                      贵州大学
+                      <span class="team-word-inner">
+                        教师
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      中国美术学院
+                      <span class="team-word-inner">
+                        产品设计
+                        <span class="team-word-inner">
+                          /
+                        </span>
+                        民间美术
+                      </span>
+                      硕士
+                    </p>
+                    <p class="ink-word-two p1">
+                      西南大学
+                      <span class="team-word-inner">
+                        美术学
+                      </span>
+                      <span class="team-word-inner">
+                        学士
+                      </span>
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-list expert tab-pane " data-filter="expert">
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/1.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1">
+                      李诗云
+                    </h2>
+                    <p class="ink-word-two t2">
+                      国家一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      高级工程师
+                    </p>
+                    <p class="ink-word-two p1">
+                      从业34年，多年在甲级设计院设计工作中，主持了多项大型公建及民用建筑的设计工作，曾获多项建设部优秀工程设计奖
+                      <br>
+                      北京市优秀工程设计奖
+                    </p>
+                    <p class="ink-word-two p1">
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner right-align">
+                    <h2 class="ink-word-two t1 ">
+                      司 路
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      国家一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      工程师
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      十年甲级资质设计院工作经验。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      三年设计事务所管理经验。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      原创设计并主持了成都希尔顿酒店项目。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具备丰富的建筑设计及管理经验。
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/2.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/3.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner left-word-inner top-word-inner ">
+                    <h2 class="ink-word-two t1">
+                      支 浩
+                    </h2>
+                    <p class="ink-word-two t2">
+                      国家注册城市规划师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      工程师
+                    </p>
+                    <p class="ink-word-two p1">
+                      从业11年。负责过多项大型综合体、办公、住宅项目的设计管理工作，具有丰富的设计管理实践经验和良好的敬业精神。
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner right-align">
+                    <h2 class="ink-word-two t1 ">
+                      马申申
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      国家一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      注册土地评估师
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      十年甲级资质设计院工作经验，三年一线地产工作经验。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具备扎实的建筑方案设计、施工图设计、地产管控能力。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      作品曾荣获多项国家及北京市专业奖项。
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/4.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/5.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner left-word-inner top-word-inner  team-word-right">
+                    <h2 class="ink-word-two t1">
+                      张 悦
+                    </h2>
+                    <p class="ink-word-two t2">
+                      一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      二级房地产策划师
+                    </p>
+                    <p class="ink-word-two p1">
+                      建筑专业负责人
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner right-align  team-word-left">
+                    <h2 class="ink-word-two t1 ">
+                      闫 峰
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      一级注册结构师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      高级工程师
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      结构专业负责人
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/6.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/7.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner left-word-inner top-word-inner ">
+                    <h2 class="ink-word-two t1">
+                      薛 奇
+                    </h2>
+                    <p class="ink-word-two t2">
+                      景观专业负责人
+                    </p>
+                    <p class="ink-word-two p1">
+                      14年的景观设计和管理的工作经验，管理的多个项目获得北京市优秀工程设计一等奖、中国人居典范评委会景观设计方案金奖等
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner right-align team-word-left">
+                    <h2 class="ink-word-two t1 ">
+                      周 鹏
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      精装专业负责人
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      近15年室内设计及项目管理工作从业经验，曾任职于国内大型设计院及国际知名设计公司
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/8.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-expert-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/9.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner left-word-inner top-word-inner ">
+                    <h2 class="ink-word-two t1">
+                      查勇刚
+                    </h2>
+                    <p class="ink-word-two t2">
+                      国家二级注册建造师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      高级工程师
+                    </p>
+                    <p class="ink-word-two p1">
+                      幕墙专业负责人
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team col-xs-12 col-sm-12 visible-xs">
+          <div class="team-inner">
+            <div class="col-xs-12 col-sm-12">
+              <div class="team-next">
+                <div id="carousel1">
+                  <div class="carousel-feature" data-filter="manage">
+                    <a href="#">
+                      <img class="carousel-image img-responsive" alt="Image Caption" src="img/team-small-1.png">
+                    </a>
+                    <div class="ink-word-two carousel-caption">
+                      <p>
+                        管理团队
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-feature" data-filter="consultant">
+                    <a href="#">
+                      <img class="carousel-image img-responsive" alt="Image Caption" src="img/team-small-2.png">
+                    </a>
+                    <div class="ink-word-two carousel-caption">
+                      <p>
+                        顾问团队
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-feature" data-filter="expert">
+                    <a href="#">
+                      <img class="carousel-image  img-responsive" alt="Image Caption" src="img/team-small-3.png">
+                    </a>
+                    <div class="ink-word-two carousel-caption">
+                      <p>
+                        专家团队
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="carousel-left1">
+                  <img src="img/arrow-left.png" />
+                </div>
+                <div id="carousel-right1">
+                  <img src="img/arrow-right.png" />
+                </div>
+              </div>
+            </div>
+            <div role="separator" class="col-xs-12 col-sm-12 divider team-diviver-inner">
+            </div>
+            <div class="tab-content">
+              <div class="tab-list manage tab-active " data-filter="manage">
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner ">
+                  <div class="col-xs-12 col-sm-6 zero-inne img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/1.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner top-word-inner indent ">
+                    <h2 class="ink-word-two t1">
+                      王 锦
+                    </h2>
+                    <p class="ink-word-two t2">
+                      董事
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      设计总监
+                    </p>
+                    <p class="ink-word-two p1">
+                      英国卡迪夫大学
+                      <span class="team-word-inner">
+                        城市规划
+                      </span>
+                      <span class="team-word-inner">
+                        硕 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      北京交通大学
+                      <span class="manage-one">
+                        建筑学
+                      </span>
+                      <span class="manage-two">
+                        学 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      贵州大学
+                      <span class="manage-three">
+                        建筑学
+                      </span>
+                      <span class="manage-four">
+                        曾任教师
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      RTPI(英国皇家城市规划学会)会 员
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-right-inner ri">
+                <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/2.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner">
+                    <h2 class="ink-word-two t1 ">
+                      童 维 立
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      董事
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      总经理
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      北京理工大学
+                      <span class="team-word-inner">
+                        机电工程专业
+                      </span>
+                      <span class="team-word-inner">
+                        &nbsp学士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾在500强上市公司担任大客户经理
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具有丰富的市场拓展及产品经验,长期从事建材贸易
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾服务企业: 平安保险
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      VIFA
+                    </p>
+                  </div>
+                  
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-right-inner zero-inner ri">
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/3.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner">
+                    <h2 class="ink-word-two t1">
+                      李 晨 浩
+                    </h2>
+                    <p class="ink-word-two t2">
+                      运营总监
+                    </p>
+                    <p class="ink-word-two p1">
+                      清华大学
+                      <span class="team-word-inner">
+                        工商管理专业
+                      </span>
+                      <span class="team-word-inner">
+                        硕 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      贵州大学
+                      <span class="team-word-inner">
+                        行政管理专业
+                      </span>
+                      <span class="team-word-inner">
+                        学 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      曾在500强上市公司担任高层管理职位
+                    </p>
+                    <p class="ink-word-two p1">
+                      具有丰富的项目运营及管理经验
+                    </p>
+                    <p class="ink-word-two p1">
+                      曾服务企业: IBM中国有限公司
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      同方股份有限公司
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      海尔集团
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-right-inner zero-inner ri">
+                <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner img-right-top ">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/manage/4.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 zero-inner zero-right-inner top-word-inner right-word-inner">
+                    <h2 class="ink-word-two t1 ">
+                      温新阳
+                    </h2>
+                    <p class="ink-word-two t2">
+                      项目总监
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      英国卡迪夫大学
+                      <span class="team-word-inner">
+                        供应链及运营管理
+                      </span>
+                      <span class="team-word-inner">
+                        硕 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      沈阳理工大学
+                      <span class="manage-five">
+                        英语文学
+                      </span>
+                      <span class="manage-six">
+                        学 士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾在多家外企担任供应链体系高管
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具有丰富的供应链及项目管理经验
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      曾服务的企业: 加拿大卡摩拉速力达公司上海代表处
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      贺利氏信越石英 (中国) 有限公司
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      斯凯孚 (大连) 轴承与精密技术产品有限公司
+                    </p>
+                  </div>
+                  
+                  <div class="clear">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-list consultant tab-pane" data-filter="consultant">
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner top-word-inner img-right-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/consultant/1.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  indent">
+                    <h2 class="ink-word-two t1">
+                      郭旭宝
+                    </h2>
+                    <p class="ink-word-two t2">
+                      视觉传达顾问
+                    </p>
+                    <p class="ink-word-two p1">
+                      旅居意大利
+                      <span class="consultant-one">
+                        独立摄影师
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      中国美术学院
+                      <span class="team-word-inner ">
+                        视觉传达设计
+                      </span>
+                      <span class="team-word-inner">
+                        硕士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      2013 WPPI
+                      <span class="team-word-inner">
+                        16*20Print:
+                      </span>
+                      <span class="team-word-inner">
+                        Film&Album
+                      </span>
+                      <span class="team-word-inner">
+                        6个单项银奖
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      2014 WPPI
+                      <span class="team-word-inner">
+                        FirstHalf：
+                      </span>
+                      <span class="team-word-inner">
+                        Bride or Groom Alone
+                      </span>
+                      <span class="team-word-inner">
+                        冠军&6个单项银奖
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      2014 WPPI
+                      <span class="team-word-inner">
+                        SecondHalf：
+                      </span>
+                      <span class="team-word-inner">
+                        Bride or Groom Alone
+                      </span>
+                      <span class="team-word-inner">
+                        冠军&8个单项银奖
+                      </span>
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div  class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/consultant/2.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  indent">
+                    <h2 class="ink-word-two t1 ">
+                      韩 笑
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      音乐顾问
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      旅居意大利
+                      <span class="team-word-inner">
+                        钢琴演奏家
+                      </span>
+                      <span class="team-word-inner">
+                        歌剧指导
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      古典钢琴演奏
+                        <span class="team-word-inner">
+                          /
+                        </span>
+                        歌剧艺术指导
+                      <span class="team-word-inner">
+                        硕士
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      武汉音乐学院
+                      <span class="team-word-inner consultant-two">
+                        钢琴演奏
+                      </span>
+                      <span class="team-word-inner consultant-three" >
+                        学士
+                      </span>
+                    </p>
+                  </div>
+                  
+                  <div class="clear">
+                  </div>
+                </div>
+                <div  class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/consultant/3.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  indent">
+                    <h2 class="ink-word-two t1">
+                      王旻昱
+                    </h2>
+                    <p class="ink-word-two t2">
+                      艺术顾问
+                    </p>
+                    <p class="ink-word-two p1">
+                      贵州大学
+                      <span class="team-word-inner">
+                        教师
+                      </span>
+                    </p>
+                    <p class="ink-word-two p1">
+                      中国美术学院
+                      <span class="team-word-inner">
+                        产品设计
+                        <span class="team-word-inner">
+                          /
+                        </span>
+                        民间美术
+                      </span>
+                      硕士
+                    </p>
+                    <p class="ink-word-two p1">
+                      西南大学
+                      <span class="team-word-inner">
+                        美术学
+                      </span>
+                      <span class="team-word-inner">
+                        学士
+                      </span>
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-list expert tab-pane " data-filter="expert">
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/1.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1">
+                      李诗云
+                    </h2>
+                    <p class="ink-word-two t2">
+                      国家一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      高级工程师
+                    </p>
+                    <p class="ink-word-two p1">
+                      从业34年，多年在甲级设计院设计工作中，主持了多项大型公建及民用建筑的设计工作，曾获多项建设部优秀工程设计奖
+                      <br>
+                      北京市优秀工程设计奖
+                    </p>
+                    <p class="ink-word-two p1">
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/2.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1 ">
+                      司 路
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      国家一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      工程师
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      十年甲级资质设计院工作经验。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      三年设计事务所管理经验。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      原创设计并主持了成都希尔顿酒店项目。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具备丰富的建筑设计及管理经验。
+                    </p>
+                  </div>
+                  
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/3.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1">
+                      支 浩
+                    </h2>
+                    <p class="ink-word-two t2">
+                      国家注册城市规划师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      工程师
+                    </p>
+                    <p class="ink-word-two p1">
+                      从业11年。负责过多项大型综合体、办公、住宅项目的设计管理工作，具有丰富的设计管理实践经验和良好的敬业精神。
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                 <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/4.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1 ">
+                      马申申
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      国家一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      注册土地评估师
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      十年甲级资质设计院工作经验，三年一线地产工作经验。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      具备扎实的建筑方案设计、施工图设计、地产管控能力。
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      作品曾荣获多项国家及北京市专业奖项。
+                    </p>
+                  </div>
+                 
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/5.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1">
+                      张 悦
+                    </h2>
+                    <p class="ink-word-two t2">
+                      一级注册建筑师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      二级房地产策划师
+                    </p>
+                    <p class="ink-word-two p1">
+                      建筑专业负责人
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/6.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1 ">
+                      闫 峰
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      一级注册结构师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      高级工程师
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      结构专业负责人
+                    </p>
+                  </div>
+                  
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/7.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1">
+                      薛 奇
+                    </h2>
+                    <p class="ink-word-two t2">
+                      景观专业负责人
+                    </p>
+                    <p class="ink-word-two p1">
+                      14年的景观设计和管理的工作经验，管理的多个项目获得北京市优秀工程设计一等奖、中国人居典范评委会景观设计方案金奖等
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                 <div class="col-xs-12 col-sm-6 zero-inner img-left-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/8.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1 ">
+                      周 鹏
+                    </h2>
+                    <p class="ink-word-two t2 ">
+                      精装专业负责人
+                    </p>
+                    <p class="ink-word-two p1 ">
+                      近15年室内设计及项目管理工作从业经验，曾任职于国内大型设计院及国际知名设计公司
+                    </p>
+                  </div>
+                 
+                  <div class="clear">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 zero-inner zero-inner zero-right-inner">
+                  <div class="col-xs-12 col-sm-6 zero-inner img-left-expert-top">
+                    <p class="img-inner hr-img-inner">
+                      <img src="img/team/expert/9.png" class="img-responsive" />
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 left-word-inner zero-right-inner  top-word-inner indent">
+                    <h2 class="ink-word-two t1">
+                      查勇刚
+                    </h2>
+                    <p class="ink-word-two t2">
+                      国家二级注册建造师
+                      <span class="team-word-inner">
+                        /
+                      </span>
+                      高级工程师
+                    </p>
+                    <p class="ink-word-two p1">
+                      幕墙专业负责人
+                    </p>
+                  </div>
+                  <div class="clear">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--主体-->
+    <!--底部-->
+    <footer class="">
+      <div ng-include="'common/footer.html'">
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  </body>
+</html>

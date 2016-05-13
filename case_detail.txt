@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "Name": "木动声色",
+        "Case_IMG":"case/inside/llw/0.jpg",
+        "IMG": [
+            "case/inside/llw/1.jpg",
+            "case/inside/llw/2.jpg",
+            "case/inside/llw/3.jpg",
+            "case/inside/llw/4.jpg",
+            "case/inside/llw/5.jpg",
+            "case/inside/llw/6.jpg"
+        ],
+        "caseInto_One": "本案的设计以东南亚室内设计理念为基准，从色彩、材质、家具、门饰到软装、配饰、陈设各个方面的内容，致力营造一个温馨而不失浪漫的精致空间。空间主题———“木动声色”。 设计师从实用、环保、收纳、美观四个方面入手，努力使这个家庭能够因为设计而更加的舒适， 难忘。男女主人都是广交朋友，热情好客的人，所以日常来家做客的朋友非常多，我们也对入户换鞋挂衣、用餐、品茶等问题做了设计加强。在每间房间的改造上都留有了良好的采光和通风系统，最大化的满足舒适度要求。本案中的一个很大亮点就是我们运用环保生态屋的理念，选择柚木原木为家里主要的木质材料，柚木是一种油性光亮、材色均一、纹理通直且在日晒雨淋干湿变化较大的情况下不",
+        "caseInto_Two": "翘不裂、耐水、耐火性强、能抗白蚁、极耐腐、干燥性能良好的珍贵木材。考虑女主人是一位有品味的时尚女性，家里除了常规的收纳功能之外，还单独设有多个衣帽间、鞋帽间、储酒间、茶房等。对于每个储物空间的具体收纳系统分配情况单独成册。整体空间色调以米黄色和原木色为主，家具选用米黄色和米白色。中间夹杂了主要的装饰材料色彩，暖白色的墙板和窗帘，灰色的家具皮面及粉白色的布艺，深色的饰品点缀，还有质朴的原木色。",
+        "Add": "贵州贵阳",
+        "Time": "2015.10.12",
+        "Size": "879.89",
+        "ClassType": "inside",
+        "ClassName": "home_space",
+        "PojectSatus":"0"
+    },
+      {
+        "id": "2",
+        "Name": "交错的网",
+        "Case_IMG":"case/inside/jcdw/0.jpg",
+        "IMG": [
+            "case/inside/jcdw/1.jpg",
+            "case/inside/jcdw/2.jpg",
+            "case/inside/jcdw/3.jpg",
+            "case/inside/jcdw/4.jpg",
+            "case/inside/jcdw/5.jpg",
+            "case/inside/jcdw/6.jpg"
+        ],
+        "caseInto_One": "项目地处经典天成。使用面积420平方米，整体空间以现代的设计手法演绎东西方融合的美学，致力营造一个华丽精致而不失温馨浪漫的空间;",
+        "caseInto_Two": "色彩上以高雅的灰色调为主，配上时尚大气的的意式棕色，以及如深海宝石的孔雀蓝加以点缀。体现一个典雅高贵，不拘一格的独特空间氛围。",
+        "Add": "贵州贵阳",
+        "Time": "2015.12.03",
+        "Size": "420",
+        "ClassType": "inside",
+        "ClassName": "home_space",
+        "PojectSatus":"0"
+    },
+      {
+        "id": "3",
+        "Name": "后工业时代的浪漫",
+        "Case_IMG":"case/inside/hgy/0.jpg",
+        "IMG": [
+            "case/inside/hgy/1.jpg",
+            "case/inside/hgy/2.jpg",
+            "case/inside/hgy/3.jpg",
+            "case/inside/hgy/4.jpg",
+            "case/inside/hgy/5.jpg",
+            "case/inside/hgy/6.jpg"
+        ],
+        "caseInto_One": "本案的设计以后现代建筑设计理念为基准，运用反拱、穹窿等专业手法，致力营造一个温馨而不失浪漫的精致空间。整体空间色调以白色为顶，暖白为立，浅咖为地，中间夹杂了主要的装饰材料色彩，蓝色的墙板和窗帘，红色的家具皮面，深灰色的铁件及窗框，还有质朴的原木色。男女主人都是广交朋友，热情好客的人，所以日常来家做客的朋友非常多，对入户换鞋挂衣、用餐、娱乐等问题做了设计加强，在每间房间的改造上都留有了独立的采光和通风系统，最大化的满足舒适度要求。",
+        "caseInto_Two": "本案中的一个很大亮点就是我们运用环保生态屋的理念，利用排、输水系统建立出了一套从雨水收集到有序农业灌溉的独立装置。下沉花园中的阳光餐厅和洗衣房全采用了光伏幕墙，回收电力可供自家使用，结余可上国家电网。",
+        "Add": "贵州贵阳",
+        "Time": "2015.10.09",
+        "Size": "1073",
+        "ClassType": "inside",
+        "ClassName": "home_space",
+        "PojectSatus":"1"
+    },
+      {
+        "id": "4",
+        "Name": "闲静时光",
+        "Case_IMG":"case/inside/xjsg/0.jpg",
+        "IMG": [
+            "case/inside/xjsg/1.jpg",
+            "case/inside/xjsg/2.jpg",
+            "case/inside/xjsg/3.jpg",
+            "case/inside/xjsg/4.jpg",
+            "case/inside/xjsg/5.jpg",
+            "case/inside/xjsg/6.jpg"
+        ],
+        "caseInto_One": "午后细雨纷纷，坐在摇椅上，手握一杯香茗，享受着独属于自身，独属于家人的闲静时光。 在这里，将多种元素融入极富中国韵味的设计中，把各种风格交织融合，从不同的角度展现出了不同格调的装饰与设计，且碰撞出完美的现代中式概念。整个空间将多种“色调”糅合在一起，浅色系的运用为整个空间定下 了高雅、和谐的基调;",
+        "caseInto_Two": "在家居饰品的选择上独具一格，古朴温润质感的实木家具，柔软的布艺沙发，营造的是一种与自然无限接近的亲切。空间色彩是朴素的，纯白的墙体与深棕色的木地板相互映衬，在灯光的照射下，使整个空间更加温馨，加上绿色植物的点缀，顿时又充满了轻松、愉悦。",
+        "Add": "贵州贵阳",
+        "Time": "2015,4.3",
+        "Size": "249.8",
+        "ClassType": "inside",
+        "ClassName": "home_space",
+        "PojectSatus":"1"
+    }
+]
